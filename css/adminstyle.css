@@ -1,0 +1,44 @@
+
+
+body{
+    background-color:lavender;
+    padding: 5px;
+    
+}
+table {
+    border-collapse: collapse;
+    background-color: rgb(210, 210, 247);
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+  }
+
+  
+  tr:hover {background-color: rgb(196, 196, 247);}
+
+  #insert_txt,#update_txt,#delete_txt, #search_txt{
+      font-size: 22px;
+  }
+
+  input{
+      width: 300px;
+  }
+
+  .buton{
+      justify-content: center;
+      width: 80px;
+      /* font-size: 30px; */
+  }
+
+  #sort{
+      margin-top: 20px;;
+  }
+
+  #question{
+      cursor: pointer;
+  }
+
+  #default{
+      width: 150px;
+  }
